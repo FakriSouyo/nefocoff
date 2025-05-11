@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ww from '../assets/herosection/ww.jpg';
 import sticker1 from '../assets/sticker/sticker1.png';
-import sticker2 from '../assets/sticker/sticker2.png';
-import sticker3 from '../assets/sticker/sticker3.png';
-import sticker4 from '../assets/sticker/sticker4.png';
-import sticker5 from '../assets/sticker/sticker5.png';
+import sticker2 from '../assets/sticker/Sticker2.png';
+import sticker3 from '../assets/sticker/Sticker3.png';
+import sticker4 from '../assets/sticker/Sticker4.png';
+import sticker5 from '../assets/sticker/Sticker5.png';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
