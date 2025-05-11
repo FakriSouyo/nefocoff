@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2d368f;
+  --secondary-color: #ffffff;
+}
+
+body {
+  @apply bg-white text-gray-800;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+.heading {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-8;
+}
+
+.subheading {
+  @apply text-xl md:text-2xl text-gray-600 mb-6;
+}
+
+.btn-primary {
+  @apply bg-[#2d368f] text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply border-2 border-[#2d368f] text-[#2d368f] px-6 py-3 rounded-lg hover:bg-[#2d368f] hover:text-white transition-all duration-300;
+}
