@@ -46,9 +46,11 @@ const Header = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-2xl font-bold text-[#2d368f]"
+            className="flex items-center gap-2 cursor-pointer"
+            onClick={() => scrollToSection('home')}
           >
             <img src={logo} alt="Nefo Coff Logo" className="h-10 w-auto" />
+            <span className="text-2xl font-bold text-[#2d368f]">Nefo Coff</span>
           </motion.div>
 
           {/* Desktop Menu */}
@@ -71,13 +73,6 @@ const Header = () => {
                 {item.label}
               </motion.button>
             ))}
-            {/* <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-[#2d368f] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-[#2d368f]/90 transition-all"
-            >
-              Pesan Sekarang
-            </motion.button> */}
           </motion.nav>
 
           {/* Mobile Menu Button */}
@@ -114,12 +109,6 @@ const Header = () => {
                     {item.label}
                   </motion.button>
                 ))}
-                <motion.button
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-[#2d368f] text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-[#2d368f]/90 transition-all w-full"
-                >
-                  Pesan Sekarang
-                </motion.button>
               </nav>
             </div>
           </motion.div>

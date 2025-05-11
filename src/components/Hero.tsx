@@ -30,7 +30,7 @@ const Hero = () => {
         <img
           src={ww}
           alt="Hero Background"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center md:object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/50" />
       </motion.div>
@@ -40,7 +40,7 @@ const Hero = () => {
         <motion.img
           src={sticker1}
           alt="Sticker 1"
-          className="absolute top-20 left-10 w-24 h-24"
+          className="absolute top-20 left-10 w-16 h-16 md:w-24 md:h-24"
           animate={{
             rotate: [0, 10, 0],
             scale: [1, 1.1, 1],
@@ -54,28 +54,28 @@ const Hero = () => {
         <motion.img
           src={sticker2}
           alt="Sticker 2"
-          className="absolute bottom-40 right-10 w-20 h-20"
+          className="absolute bottom-40 right-10 w-14 h-14 md:w-20 md:h-20"
           animate={{ y: [0, -20, 0] }}
           transition={{ duration: 4, repeat: Infinity }}
         />
         <motion.img
           src={sticker3}
           alt="Sticker 3"
-          className="absolute top-40 right-20 w-16 h-16"
+          className="absolute top-40 right-20 w-12 h-12 md:w-16 md:h-16"
           animate={{ scale: [1, 1.2, 1] }}
           transition={{ duration: 3, repeat: Infinity }}
         />
         <motion.img
           src={sticker4}
           alt="Sticker 4"
-          className="absolute bottom-20 left-20 w-28 h-28"
+          className="absolute bottom-20 left-20 w-20 h-20 md:w-28 md:h-28"
           animate={{ rotate: -360 }}
           transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
         />
         <motion.img
           src={sticker5}
           alt="Sticker 5"
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 opacity-20"
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 md:w-32 md:h-32 opacity-20"
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ duration: 5, repeat: Infinity }}
         />
@@ -85,7 +85,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <motion.h1 
-            className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight"
+            className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -94,7 +94,7 @@ const Hero = () => {
             <span className="text-[#2d368f]">Nefo Coffee</span>
           </motion.h1>
           <motion.p 
-            className="text-xl md:text-2xl text-white/90 mb-12 max-w-2xl mx-auto"
+            className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 md:mb-12 max-w-2xl mx-auto px-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}

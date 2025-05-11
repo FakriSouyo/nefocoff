@@ -49,13 +49,6 @@ const DrinkCarousel = ({ title, items }: { title: string; items: any[] }) => {
                 <div className="p-6">
                   <div className="flex justify-between items-center">
                     <span className="text-2xl font-bold text-[#2d368f]">Rp {item.price}</span>
-                    <motion.button
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="bg-[#2d368f] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-[#2d368f]/90 transition-all"
-                    >
-                      Pesan Sekarang
-                    </motion.button>
                   </div>
                 </div>
               </motion.div>
@@ -218,13 +211,6 @@ const Menu = () => {
                           </div>
                         ))}
                       </div>
-                      <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="w-full mt-6 bg-[#2d368f] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#2d368f]/90 transition-all"
-                      >
-                        Pesan Sekarang
-                      </motion.button>
                     </div>
                   </motion.div>
                 </motion.div>
