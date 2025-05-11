@@ -72,7 +72,7 @@ const Location = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#2d368f] mb-1">Telepon</h4>
-                    <p className="text-gray-600">+62 123 4567 890</p>
+                    <p className="text-gray-600">+62 8958-1978-1674</p>
                   </div>
                 </div>
 
@@ -82,7 +82,7 @@ const Location = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#2d368f] mb-1">Email</h4>
-                    <p className="text-gray-600">info@nefocoffee.com</p>
+                    <p className="text-gray-600">nefo.coff@gmail.com</p>
                   </div>
                 </div>
 
@@ -94,7 +94,7 @@ const Location = () => {
                     <h4 className="font-semibold text-[#2d368f] mb-1">Jam Operasional</h4>
                     <p className="text-gray-600">
                       Senin - Minggu<br />
-                      08:00 - 22:00
+                      17:00 - 00:00
                     </p>
                   </div>
                 </div>

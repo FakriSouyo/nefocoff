@@ -51,7 +51,7 @@ const About = () => {
               <p className="text-gray-600 leading-relaxed">
                 Kami adalah kedai kopi yang berdedikasi untuk menyajikan pengalaman kopi terbaik. 
                 Dengan biji kopi pilihan dan barista berpengalaman, kami menghadirkan cita rasa kopi 
-                yang autentik dan berkualitas.
+                yang autentik dan berkualitas dengan harga yang terjangkau.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
