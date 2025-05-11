@@ -124,9 +124,6 @@ const Footer = () => {
               <li className="text-white/70">
                 Senin - Minggu: 17:00 - 00:00
               </li>
-              <li className="text-white/70">
-                Sabtu - Minggu: 17:00 - 00:00
-              </li>
             </ul>
           </motion.div>
         </div>
